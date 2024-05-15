@@ -25,14 +25,9 @@ def download_proxies(url, file_name, progress):
 def install_new_proxies():
     urls = [
         "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/http.txt",
-        "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies_anonymous/all.txt",
         "https://raw.githubusercontent.com/casals-ar/proxy-list/main/http",
-        "https://raw.githubusercontent.com/casals-ar/proxy-list/main/socks4",
-        "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/all/data.txt",
+        "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt",
         "https://raw.githubusercontent.com/saisuiu/Lionkings-Http-Proxys-Proxies/main/free.txt",
-        "https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS5_RAW.txt",
-        "https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS4_RAW.txt",
-        "https://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt"
     ]
     
     if os.path.exists(path_to_download_proxies):
